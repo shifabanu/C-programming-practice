@@ -61,11 +61,11 @@ int main()
     
     if(flag == 0)
     {
-        printf("\nThe strings are Palindrome");
+        printf("\nThe string is Palindrome");
     }
     else
     {
-        printf("\nThe strings are not Palindrome");
+        printf("\nThe string is not Palindrome");
     }
     
 
