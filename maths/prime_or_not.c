@@ -7,7 +7,7 @@
  complexities O(n) in worst case scenario is infinite if the number is very 
  large.
  
- Methor 2: A better method. If we calculate square root of the number, 
+ Method 2: A better method. If we calculate square root of the number, 
  then, there will always be two factors. One of each will be less than
  sqrt(n) and the other one will always be greater than the sqrt(n). 
  
