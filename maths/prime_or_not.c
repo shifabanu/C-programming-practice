@@ -34,26 +34,37 @@ int main()
     
     sq_rt = sqrt(num); // find square root
     
-    while(i < sq_rt) // loop
+    if(num == 0 | num == 1)
     {
-       if(num%i == 0)
-       {
-           flag = false; // if composite then flag turns to FALSE
-           break;
-       }
-       
-       i++;
-    }
-    
-    if(flag==true) // check the status of the flag and display accordingly
-    {
-        printf("The number %d is a prime number.", num);
+        printf("\nThe number %d is neither prime nor composite!", num);
     }
     else
     {
-        printf("The number %d is not a prime number.", num);
+        while(i < sq_rt) // loop
+        {
+            if(num%i == 0)
+            {
+                flag = false; // if composite then flag turns to FALSE
+                break;
+                
+            }
+            i++;
+            
+        }
+        
+        if(flag==true) // check the status of the flag and display accordingly
+        {
+            printf("The number %d is a prime number.", num);
+            
+        }
+        else
+        {
+            printf("The number %d is not a prime number.", num);
+            
+        }
+        
     }
-    
 
     return 0;
 }
+
