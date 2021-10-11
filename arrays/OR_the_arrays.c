@@ -6,7 +6,7 @@ consecutive elements in the array.
 Step 1: Run a for loop and iterate
 Step 2: Take the current and next element and OR them
 Step 3: Store the result at the current index
-Step $: If last element then store as it is.
+Step 4: If last element then store as it is.
 
 *********************************************************************************/
 
