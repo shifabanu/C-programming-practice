@@ -22,6 +22,7 @@ int main()
     int x=2, y=10;
     printf("Before calling: x = %d   y = %d", x,y);
     add(x,y);
+    printf("\nAfter returning: x = %d   y = %d", x,y);
     
 
     return 0;
