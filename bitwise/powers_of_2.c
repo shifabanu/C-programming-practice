@@ -1,6 +1,26 @@
 /******************************************************************************
 
     Find if the number is in the power of 2
+    
+    Logic: ANDing the num and num-1 will result into 0 if the num is
+           in power of 2.
+           Eg: 
+           Suppose num = 4 so, num-1 = 3
+           4: 1 0 0
+           &
+           3: 0 1 0
+           ----------
+              0  0  0 >----> result always gives us 0
+           
+           Suppose num = 3, so num-1 = 2
+           3: 1 1
+           &
+           2: 1 0
+           -------
+              1 0 >---> result is not 0
+           
+               
+    
 
 *******************************************************************************/
 
