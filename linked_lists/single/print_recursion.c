@@ -21,7 +21,7 @@ void print_the_list( struct node *p)
 {
     if(p)
     {
-        printf(p->value);
+        printf("%d",p->value);
         print_the_list(p->next);
     }
 }
